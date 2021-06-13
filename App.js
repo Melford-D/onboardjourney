@@ -24,7 +24,7 @@ import {
 /*
   The react native NavigatorContainer is not loading my screens
   so I had to build them separately. I used android studio with VS code.
-  Uncomment each screen to view the wproject.
+  Please, uncomment each screen to view the project.
 */
 const App= () => {
   return (
