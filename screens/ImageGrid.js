@@ -1,8 +1,10 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import Server from './Server'
 
 const ImageGrid = () => {
     return (
+        <>
         <View style={styles.nav}>
             <View style={styles.navText}>
                 <View>
@@ -13,7 +15,9 @@ const ImageGrid = () => {
                     <Text style={styles.textSkip}>Skip</Text>
                 </View>
             </View>
+            <Server/>
         </View>
+        </>
     )
 }
 

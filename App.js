@@ -38,8 +38,8 @@ const App= () => {
           </NavigationContainer> */}
 
           {/* <WelcomeScreen/> */}
-          <AboutScreen/>
-          {/* <ImageGrid/> */}
+          {/* <AboutScreen/> */}
+          <ImageGrid/>
     </SafeAreaView>
   );
 };
