@@ -6,11 +6,9 @@ const Server = () => {
     const [data, setData] = useState([]);
 
     const fetchData = async () => {
-        console.log('fetching...');
         try {
             let response = await fetch('https://uplanit-test-api.herokuapp.com/public/category');
             let json = await response.json();
-            console.log(json);
             setLoading(false);
             return setData(json.map((item) => item.image))
         } catch (error) {
