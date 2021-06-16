@@ -15,7 +15,10 @@ const ImageGrid = () => {
                     <Text style={styles.textSkip}>Skip</Text>
                 </View>
             </View>
-            <Server/>
+        </View>
+        
+        <View>
+            <Server/> 
         </View>
         </>
     )
@@ -29,7 +32,8 @@ const styles = StyleSheet.create({
         top: 0,
         left: 0,
         width: '100%',
-        backgroundColor: '#161F51'
+        backgroundColor: '#161F51',
+        zIndex: 99
     },
     navText:{
         flexDirection: 'row',
